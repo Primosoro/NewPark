@@ -188,14 +188,15 @@ public class UnityChanControlScriptWithRgidBody : MonoBehaviour
 
 	void OnGUI()
 	{
-		GUI.Box(new Rect(Screen.width -260, 10 ,250 ,150), "Interaction");
-		GUI.Label(new Rect(Screen.width -245,30,250,30),"Up/Down Arrow : Go Forwald/Go Back");
-		GUI.Label(new Rect(Screen.width -245,50,250,30),"Left/Right Arrow : Turn Left/Turn Right");
-		GUI.Label(new Rect(Screen.width -245,70,250,30),"Hit Space key while Running : Jump");
-		GUI.Label(new Rect(Screen.width -245,90,250,30),"Hit Spase key while Stopping : Rest");
-		GUI.Label(new Rect(Screen.width -245,110,250,30),"Left Control : Front Camera");
-		GUI.Label(new Rect(Screen.width -245,130,250,30),"Alt : LookAt Camera");
+		GUI.Box(new Rect(Screen.width -260, 10 ,250 ,150), "Objectives");
+		GUI.Label(new Rect(Screen.width -245,30,250,30),"Fight your way through Hoards");
+		GUI.Label(new Rect(Screen.width -245,50,250,30),"Search' The alley way' for a portal");
+		GUI.Label(new Rect(Screen.width -245,70,250,30),"Stop Thanos from getting Stones");
+		GUI.Label(new Rect(Screen.width -245,90,250,30),"Spoiler:");
+		GUI.Label(new Rect(Screen.width -245,110,250,30),"Naruto becomes");
+		GUI.Label(new Rect(Screen.width -245,130,250,30),"The 7th Hokage");
 	}
+
 
 
 	// キャラクターのコライダーサイズのリセット関数
